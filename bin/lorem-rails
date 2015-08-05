@@ -1,0 +1,4 @@
+#!/usr/bin/env ruby
+
+require 'lorem-rails'
+puts LoremRails.hi(ARGV[0])
