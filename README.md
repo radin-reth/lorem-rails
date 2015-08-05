@@ -2,6 +2,8 @@
 
 **lorem-rails** allows you to mockup lorem text much easy in your rails application.
 
+because it is still in progressing, now you can only display simple greeting text.
+
 ## Installation
 
 Add this line to your application's Gemfile:
@@ -20,7 +22,13 @@ Or install it yourself as:
 
 ## Usage
 
-release soon...
+```ruby
+LoremRails.hi("khmer")
+# សួស្តី LoremRails!
+
+LoremRails.hi("english")
+# hello LoremRails!
+```
 
 ## Authors
 
